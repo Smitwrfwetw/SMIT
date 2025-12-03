@@ -130,3 +130,9 @@ article dd {
     line-height: 1.4;
     color: #666;
 }
+article iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
