@@ -176,13 +176,3 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd;
 }
-.columna {
-    flex: 1; 
-    min-width: 300px; 
-    background-color: #fff;
-    padding: 15px 20px;
-    border: 1px solid #ccc; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    border-radius: 5px;
-    box-sizing: border-box; 
-}
