@@ -86,3 +86,59 @@ article {
     flex-direction: column;
     align-items: center;
 }
+/* --- 1. ESTRUCTURA: Diseño de 3 Columnas Estéticas --- */
+
+/* Contenedor principal de las 3 columnas */
+article {
+    display: flex; /* Activa la distribución flexible */
+    justify-content: space-between; /* Distribuye el espacio entre ellas */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto; /* Centra el contenido */
+}
+
+/* Estilo para cada columna (sección/tarjeta) */
+article ol,
+article ul,
+article dl {
+    flex: 1; /* Hace que cada columna ocupe el mismo ancho */
+    border: 1px solid #c9c9c9;
+    padding: 15px;
+    border-radius: 8px; /* Bordes suaves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+    background-color: #fcfcfc;
+}
+
+/* --- 2. NEGRITAS PARA SUBTÍTULOS --- */
+
+/* Negrita para los títulos de las listas (ej: LISTA DE MÚSICA, MIS COMIDAS FAVORITAS) */
+article h4 {
+    font-weight: bold; /* Aplica la negrita */
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+/* Negrita para el título de la sección de animes (ANIMES Y SERIES) */
+article h3 {
+    font-weight: bold; /* Aplica la negrita */
+    color: #004d99; /* Color de acento */
+    margin-top: 0;
+}
+
+/* Negrita para los nombres de los animes (los <dt> en el HTML) */
+article dt {
+    font-weight: bold; /* Aplica la negrita */
+    color: #555;
+    margin-top: 15px;
+}
+
+/* Estilos de texto de las descripciones */
+article dd {
+    margin-left: 0;
+    padding-left: 0;
+    line-height: 1.4;
+    color: #666;
+}
