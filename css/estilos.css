@@ -150,8 +150,8 @@ article ol li {
 }
 table {
     border-collapse: collapse;
-    width: 80%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 0% ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
